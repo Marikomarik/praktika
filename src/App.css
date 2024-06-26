@@ -1,0 +1,54 @@
+li {
+  list-style-type: none;
+}
+
+body {
+  background-image: url('./back.png');
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@media(min-width: 1256px){
+  .container {
+    width: 100%;
+    max-width: 1256px;
+    margin: auto;
+  }
+}
+
+@media(min-width: 992px) and (max-width: 1256px){
+  .container {
+    width: 100%;
+    max-width: 992px;
+    margin: auto;
+  }
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+}

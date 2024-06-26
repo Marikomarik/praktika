@@ -1,0 +1,110 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .left {
+    display: flex;
+}
+
+.blog-li {
+    display: flex;
+}
+
+.dat {
+    height: 100%;
+    background-color: white;
+}
+
+.dat div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+
+.dat-1 {
+    padding: 10px 0;
+}
+
+.dat-3 {
+    border: 0 !important;
+}
+
+.dat-3 img {
+    width: 100%;
+}
+
+.blog img {
+    width: 100%;
+}
+
+.blog {
+    max-width: 850px;
+    background-color: white;
+}
+
+.blog-text {
+    border-bottom: 1px solid black;
+    padding: 20px 0px;
+    margin: 0 40px;
+}
+
+.blog-otz {
+    margin: 20px 40px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-otz-sovet {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 130px;
+}
+
+.blog-otz-sovet img {
+    height: 20px;
+    width: 19px;
+}
+
+.blog-otz-sovet a {
+    width: 100px;
+    color: #EB6969;
+}
+
+.blog-otz-com {
+    padding: 0 30px;
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+}
+
+.blog-otz-com img {
+    height: 19px;
+    width: 20px;
+}
+
+.blog-otz-ostkcom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 20px;
+    padding-right: 75px;
+    border-right: 1px solid black;
+}
+
+.blog-otz-ostkcom a{
+    color: #EB6969 !important;
+}
+
+
+.blog-otz-boclhe {
+    height: 20px;
+    color: #EB6969 !important;
+    margin-right: 10%;
+}

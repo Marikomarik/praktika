@@ -1,0 +1,62 @@
+header .left{
+  padding: 0 10px;
+  align-items: center;
+}
+
+header .color {
+  background-color: white;
+}
+
+header .left a {
+  color: black;
+  text-transform: uppercase;
+  margin: 0 20px;
+  padding: 10px 5px;
+  border-radius: 5px;
+  transition: all .2s ease;
+}
+
+header .left a:hover {
+  background: #C77171;
+}
+
+header .right button {
+  border: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 135px;
+  height: 135px;
+  font-family: Jost;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 31.79px;
+  text-align: center;
+  justify-content: space-between;
+  color: white;
+}
+
+header .right {
+  display: flex;
+}
+
+header .right span{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+header .right button img {
+  margin-top: 10px;
+}
+
+header .right button:nth-child(1){
+  background-color: #C77171;
+}
+header .right button:nth-child(2){
+  background: #EB6969;
+}
+header .right button:nth-child(3){
+  background: #CF5858;
+}
