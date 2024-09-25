@@ -3,6 +3,10 @@ header .left{
   align-items: center;
 }
 
+header {
+  margin-bottom: 70px;
+}
+
 header .color {
   background-color: white;
 }

@@ -10,10 +10,10 @@ export default function Header(){
     <header> 
        <div className='container flex-between color'>
             <div className='left flex'>
-                <img src={logo}></img>
+                <a href="/first"><img src={logo}></img></a>
                 <a>рецепты</a>
                 <a>Страницы</a>
-                <a>Блог</a>
+                <a href="/secound">Блог</a>
                 <a>Магазин</a>
                 <a>Логин</a>
             </div>

@@ -1,6 +1,36 @@
 .main {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.nazvanie {
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+}
+
+.sozdPost {
+    padding: 20px;
+    width: 385px;
+    display: flex;
+    align-items: center;
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34.68px;
+    text-align: left;
+    border: 0;
+    margin-bottom: 60px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.sozdPost:hover{
+    background-color: #d8d8d8;
+}
+
+.sozdPost img {
+    margin-right: 20px;
 }
 
 .main .left {
@@ -107,4 +137,99 @@
     height: 20px;
     color: #EB6969 !important;
     margin-right: 10%;
+}
+
+.icons {
+    margin-bottom: 40px;
+}
+
+.icons ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+.icons li{
+    border: 0;
+  padding: 10px 0 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  height: 80px;
+  font-family: Jost;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 31.79px;
+  text-align: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.right .a{
+    background: #F88B8B;
+}
+.right .b{
+    background: #EB6969;
+}
+.right .c{
+    background: #CF5858;
+
+}
+
+.right h2 {
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23.12px;
+    text-align: left;
+    margin: 0;
+    padding: 15px 10px;
+    background-color: white;
+}
+
+.uchast {
+    width: 300px;
+}
+
+.uchast ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.uchast ul li{
+    width: 33.3333333%;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+}
+
+.uchast .shl {
+    padding: 0;
+}
+
+.uchast .shl img{
+    width: 101%;
+    height: 100%;
+}
+
+.public h2 {
+    border-bottom: 1px solid black;
+}
+
+.public {
+    background: white;
+    width: 300px;
+}
+
+.public li {
+    display: flex;
+    font-size: 19px;
+}
+
+.public div {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding-left: 10px;
 }

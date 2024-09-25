@@ -1,15 +1,21 @@
 import React, { Suspense } from 'react';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
+import Secound from './secound.js'
 import Header from './Header.js'
-import Main from './Main.js'
-import Footer from './Footer.js'
+import First from './first.js'
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Main />
-      <Footer/>
+      <Router>
+        <Routes>
+          <Route path="/first" exact element={<First />} />
+          <Route path="/secound" exact element={<Secound />} />
+          <Route path="/third" exact element={<Header />} />
+          <Route path="*" exact element={<First />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

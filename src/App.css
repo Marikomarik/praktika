@@ -2,9 +2,22 @@ li {
   list-style-type: none;
 }
 
-body {
+button {
+  border: 0;
+}
+
+
+.first {
+  background-position: top;
+  position: relative;
+	width: 100%;
+	background: linear-gradient(rgba(59, 59, 59, 0.7), rgba(59, 59, 59, 0.7)), url(./glav.png) no-repeat;
+}
+
+.secound {
   background-image: url('./back.png');
 }
+
 ul {
   margin: 0;
   padding: 0;

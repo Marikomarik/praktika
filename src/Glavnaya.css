@@ -1,0 +1,470 @@
+.glav {
+    font-family: "Jost", sans-serif;
+}
+
+.welcome{
+    padding-bottom: 200px;
+}
+
+.welcome h1 {
+    font-family: "Jost", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 69.36px;
+    text-align: left;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.welcome p {
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.12px;
+    text-align: left;
+    color: white;
+    margin-right: 40%;
+    margin-bottom: 80px;
+}
+
+.welcome button {
+    background: #F88B8B;
+    width: 215px;
+    height: 50px;
+    margin-right: 40px;
+    border-radius: 4px;
+    border: 0;
+    color: white;
+    cursor: pointer;
+}
+
+.ost {
+    background-image: url('./back.png');
+    padding-top: 71px;
+    padding-bottom: 60px;
+}
+
+.infa{
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.infa h1 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 70.02px;
+    text-align: center;
+    background: #C77171;
+    width: 710.94px;
+    height: 70px;
+    gap: 0px;
+    opacity: 0px;
+    position: relative;
+    color: white;
+}
+
+.infa h1::before{
+    content:"\A";
+    rotate: -90deg;
+    border-style: solid;
+    border-width: 40px 40px 40px 0;
+    border-color: transparent #C77171 transparent transparent;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+}
+
+.infa h1::after{
+    content:"\A";
+    rotate: 90deg;
+    border-style: solid;
+    border-width: 40px 40px 40px 0;
+    border-color: transparent #C77171 transparent transparent;
+    position: absolute;
+    left: -20px;
+    top: 10px;
+}
+
+.infa h2{
+    position: relative;
+}
+
+.infa h2::before{
+    content:"\A";
+    rotate: -90deg;
+    border-style: solid;
+    border-width: 40px 40px 40px 0;
+    border-color: transparent #C77171 transparent transparent;
+    position: absolute;
+    left: -20px;
+    top: -40px;
+}
+
+.infa h2::after{
+    content:"\A";
+    rotate: 90deg;
+    border-style: solid;
+    border-width: 40px 40px 40px 0;
+    border-color: transparent #C77171 transparent transparent;
+    position: absolute;
+    right: -20px;
+    top: -10px;
+}
+
+.infaImg {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.infaImg li{
+    padding: 53px 0;
+    width: 200px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.infaImg h2{
+    color: #C77171;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52.02px;
+    text-align: center;
+    margin: 0;
+}
+
+.infaImg p{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28.9px;
+    text-align: center;
+    margin: 0;
+}
+
+.infaB {
+    background: #C77171;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    width: 150px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20.23px;
+    text-align: center;
+    padding: 5px 10px;
+    margin-left: 43.3%;
+    margin-bottom: 10px;
+}
+
+.main-block {
+    padding-top: 60px;
+    border-top: 1px  solid black;
+}
+
+.repeat {
+
+}
+
+.sqr-bl {
+    position: relative;
+    width: 600px;
+    background-color: white;
+    margin-right: 2%;
+}
+
+.sqr-bl img {
+    width: 100%;
+}
+
+.bl-h2 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23.12px;
+    text-align: left;
+    margin: 0 22px;
+    margin-bottom: 5px;
+}
+
+.bl-p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.23px;
+    text-align: left;
+    margin: 0 22px;
+    color: #EB6969;
+}
+
+.sqr-bl-p {
+    margin-bottom: 20px;
+}
+
+.sqr-bl-but {
+    background: #C77171;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+    margin: 0 60px 0 22px;
+}
+
+.negr {
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.negr a{
+    color: black;
+}
+
+.ponos {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    background: #F88B8B;
+    color: white;
+    padding: 5px 5px;
+    width: 205px;
+}
+
+.ponos h3{
+    margin: 0;
+    z-index: 2;
+    padding: 0 10px;
+}
+
+.ponos h1, .ponos h2{
+    margin: 0;
+    position: absolute;
+}
+
+.ponos h1::after{
+    content:"\A";
+    z-index: 1;
+    rotate: 90deg;
+    border-style: solid;
+    border-width: 20px 20px 20px;
+    border-color: transparent #F88B8B transparent transparent;
+    position: absolute;
+    right: -15px;
+    top: -35px;
+}
+
+.ponos h1::before{
+    content:"\A";
+    z-index: 1;
+    rotate: -90deg;
+    border-style: solid;
+    border-width: 20px 20px 20px;
+    border-color: transparent #F88B8B transparent transparent;
+    position: absolute;
+    right: -15px;
+    top: -32px;
+}
+
+.ponos h2::after{
+    content:"\A";
+    z-index: 1;
+    rotate: 90deg;
+    border-style: solid;
+    border-width: 20px 20px 20px;
+    border-color: transparent #F88B8B transparent transparent;
+    position: absolute;
+    right: -228px;
+    top: -35px;
+}
+
+.ponos h2::before{
+    content:"\A";
+    z-index: 1;
+    rotate: -90deg;
+    border-style: solid;
+    border-width: 20px 20px 20px;
+    border-color: transparent #F88B8B transparent transparent;
+    position: absolute;
+    right: -228px;
+    top: -32px;
+}
+
+.pr-bl {
+    width: 320px;
+    background-color: white;
+    position: relative;
+}
+
+.pr-bl img {
+    width: 100%;
+}
+
+.pr-bl p {
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding: 5px 0;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 17.34px;
+    text-align: left;
+}
+
+.pr-bl-but {
+    background: #C77171;
+    color: white;
+    width: 80%;
+    border-radius: 5px;
+    padding: 5px 15px;
+    cursor: pointer;
+    margin: 0 60px 0 22px;
+    margin-bottom: 10px;
+}
+
+.pr-bl span{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.pr-bl a{
+    color: black;
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23.12px;
+}
+
+.rec {
+    position: relative;
+    padding-top: 100px;
+    margin-top: 30px;
+    border-top: 1px solid black;
+    margin-right: 2%;
+}
+
+.rec-bls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rec-bl {
+    width: 300px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.rec-bl img {
+    width: 100%;
+}
+
+.rec-bl h2 {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 21.68px;
+    text-align: left;
+    margin: 0 11px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.rec-bl-neg {
+    margin: 0 11px;
+}
+
+.rec-bl-hard {
+    position: relative;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 14.45px;
+    text-align: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.rec-bl-hard img {
+    position: absolute;
+    left: 5px;
+    width: 16px;
+}
+
+
+.rec2{
+    padding-top: 150px;
+
+    p {
+        margin: 0 11px 20px 11px;
+    }
+
+    .rec-bl-neg {
+        border-bottom: 1px solid black;
+    }
+
+    .rec-bl-hard{
+        padding-left: 30px;
+        padding-right: 40%;
+        border-right: 1px solid black;
+    }
+
+    .rec-bl-hard:nth-child(2n){
+        padding-left: 20px;
+        padding-right: 0;
+        border: 0;
+    }
+
+    .ponos {
+        padding-left: 20px;
+        width: 150px;
+    }
+
+    .ponos h1::after{
+        content:"\A";
+        z-index: 1;
+        rotate: 90deg;
+        border-style: solid;
+        border-width: 30px 30px 30px;
+        border-color: transparent #F88B8B transparent transparent;
+        position: absolute;
+        right: -10px;
+        top: -55px;
+    }
+
+    .ponos h1::before{
+        content:"\A";
+        z-index: 1;
+        rotate: -90deg;
+        border-style: solid;
+        border-width: 30px 30px 30px;
+        border-color: transparent #F88B8B transparent transparent;
+        position: absolute;
+        right: -10px;
+        top: -59px;
+    }
+
+    .ponos h2::after{
+        content:"\A";
+        z-index: 1;
+        rotate: 90deg;
+        border-style: solid;
+        border-width: 30px 30px 30px;
+        border-color: transparent #F88B8B transparent transparent;
+        position: absolute;
+        right: -185px;
+        top: -55px;
+    }
+
+    .ponos h2::before{
+        content:"\A";
+        z-index: 1;
+        rotate: -90deg;
+        border-style: solid;
+        border-width: 30px 30px 30px;
+        border-color: transparent #F88B8B transparent transparent;
+        position: absolute;
+        right: -185px;
+        top: -59px;
+    }
+}
+
